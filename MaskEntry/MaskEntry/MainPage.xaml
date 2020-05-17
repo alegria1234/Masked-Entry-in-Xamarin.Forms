@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MaskEntry"
+             x:Class="MaskEntry.MainPage">
+
+    <StackLayout VerticalOptions="Center" WidthRequest="200">
+        <local:CustomEntry Mask="00/00/0000"></local:CustomEntry>
+    </StackLayout>
+
+</ContentPage>

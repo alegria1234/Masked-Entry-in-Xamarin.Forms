@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:MaskEntry"
              x:Class="MaskEntry.MainPage">
 
-    <StackLayout VerticalOptions="Center" WidthRequest="200">
+    <StackLayout VerticalOptions="Center">
         <local:CustomEntry Mask="00/00/0000"></local:CustomEntry>
     </StackLayout>
 
